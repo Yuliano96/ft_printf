@@ -46,7 +46,7 @@ int	ft_printf(char const *str, ...)
 	va_list	arg;
 	int		size;
 
-	va_start(arg, *str);
+	va_start(arg, str);
 	size = 0;
 	while (*str)
 	{
